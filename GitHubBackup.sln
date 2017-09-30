@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GitHubBackupCfg", "GitHubBackupCfg\GitHubBackupCfg.vbproj", "{2BDF84AF-2FD1-47B7-BC8B-5BF1DBD807A8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "GitHubBackup", "GitHubBackup\GitHubBackup.vbproj", "{FB0D6715-14EE-46B5-B20D-685BD00D1432}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BDF84AF-2FD1-47B7-BC8B-5BF1DBD807A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDF84AF-2FD1-47B7-BC8B-5BF1DBD807A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDF84AF-2FD1-47B7-BC8B-5BF1DBD807A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDF84AF-2FD1-47B7-BC8B-5BF1DBD807A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0D6715-14EE-46B5-B20D-685BD00D1432}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0D6715-14EE-46B5-B20D-685BD00D1432}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0D6715-14EE-46B5-B20D-685BD00D1432}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0D6715-14EE-46B5-B20D-685BD00D1432}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

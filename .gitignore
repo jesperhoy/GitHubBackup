@@ -1,0 +1,6 @@
+.vs/
+GitHubBackup/bin/
+GitHubBackup/obj/
+GitHubBackupCfg/bin/
+GitHubBackupCfg/obj/
+*.user
