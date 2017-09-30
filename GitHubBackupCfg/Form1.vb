@@ -2,9 +2,9 @@
 
   Private BaseDir As String
 
-  Private SelPrivacy = {"", "PRIVATE", "PUBLIC"}
-  Private SelAffil = {"", "OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"}
-  Private SelBool = {"", "true", "false"}
+  Private SelPrivacy As String() = {"", "PRIVATE", "PUBLIC"}
+  Private SelAffil As String() = {"", "OWNER", "COLLABORATOR", "ORGANIZATION_MEMBER"}
+  Private SelBool As String() = {"", "true", "false"}
 
   Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
     ddAffil.SelectedIndex = 0
