@@ -17,19 +17,7 @@ locked or not, fork or not.
 
 ### Why this tool exists
 
-My source code is one of my most valuable assets (think only of the hours of labor behind it).
-
-I trust that GitHub will do their best to keep it safe, but I simply cannot afford to rely on this alone.
-What if GitHub is hacked, what if they go down for an extended prior, what if my own Internet connection goes down
-for an extended period... I need to have an automatic and reliable backup system.
-
-You might argue that my local repositories are already full backups of those on GitHub.
-The problem with this is that I have around 45 repositories that I work on at different times on different computers in different physical locations.
-I cannot manually keep track of what is updated where.
-That is why I use GitHub - as my central repository of repositories - that's where all my latest bits are.
-
-Of course other very similar tools / scripts already exists - but mostly for Python and "Bash"(?).
-I use Windows, and I don't know Python or Bash. So for me, a Windows tool makes more sense.
+Please see this [blog post](http://jesperhoy.com/p35/github-backup-software-for-windows).
 
 ### How it works
 
