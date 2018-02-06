@@ -77,8 +77,8 @@ markDone:
       REM This is a new repository - make mirror clone
       LogLine("Backup directory does not exist. Cloning from GitHub:")
 
-      p.StartInfo.Arguments = "clone -v --progress --mirror " & r.GitHubUrl(cfg.GHUserID, cfg.GHPassword) & " """ & rDir & """"
-      LogLine("Executing GIT " & "clone -v --progress --mirror " & r.GitHubUrl(cfg.GHUserID, "*****") & " """ & rDir & """")
+      p.StartInfo.Arguments = "clone -v --mirror " & r.GitHubUrl(cfg.GHUserID, cfg.GHPassword) & " """ & rDir & """"
+      LogLine("Executing GIT " & "clone -v --mirror " & r.GitHubUrl(cfg.GHUserID, "*****") & " """ & rDir & """")
 
     Else
       REM This is an existing repository
