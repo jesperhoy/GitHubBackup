@@ -237,8 +237,8 @@ markExit:
     End Function
 
     Function GitHubUrl(userID As String, pw As String) As String
-      Return "https://" & userID & ":" & pw & "@github.com/" & Owner & "/" & Name
-    End Function
+            Return "https://" & Web.HttpUtility.UrlEncode(userID) & ":" & Web.HttpUtility.UrlEncode(pw) & "@github.com/" & Owner & "/" & Name
+        End Function
 
   End Class
 
