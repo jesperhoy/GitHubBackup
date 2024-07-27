@@ -17,7 +17,7 @@ locked or not, fork or not.
 
 ### Why this tool exists
 
-Please see this [blog post](http://jesperhoy.com/p35/github-backup-software-for-windows).
+Please see this [blog post](http://jesperhoy.dev/p35).
 
 ### How it works
 
